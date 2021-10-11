@@ -1,0 +1,233 @@
+
+
+.onlineIconParent{
+    bottom: 10px;
+   display: flex;
+   position: fixed;
+   right: 25px;
+   z-index: 9999;
+   height: 50px;
+   width: 50px;
+   margin: 0px 10px 0px 0px;
+   background-color: #41cde6;
+   border-radius: 50%;
+}
+
+.chatBoxIconParent{
+   bottom: 10px;
+   display: flex;
+   position: fixed;
+   right: 185px;
+   z-index: 9999;
+   height: 40px;
+   width: 40px;
+   margin: 0px 10px 0px 0px;
+   background-color: #41cde6;
+   border-radius: 50%;
+   visibility: hidden;
+}
+
+.popover-body{
+padding: 5px !important;
+}
+
+.popover-header{
+color: #ffffff !important;
+background-color: #f35a58 !important;
+}
+
+.wrap {
+   width: 88%;
+   margin: 0 auto;
+   position: relative;
+   padding: 10px 0px;
+   }
+
+.chatWrap {
+//    width: auto;
+//    width: 30%;
+width:88%;
+   margin: 0 auto;
+   position: relative;
+   padding: 0px 0px;
+   }
+.OnlineBoxHeader{
+font-weight: 600;
+}
+
+.chatBoxHeader{
+   width: 88%;
+   margin: 0 auto;
+   position: relative;
+   padding: 2px 0px 0px 0px;
+}
+.chatBoxHeader img {
+   width: 40px;
+   border-radius: 50%;
+   float: left;
+   margin-right: 10px;
+   }
+
+
+.online {
+   background: #2ecc71;
+   }
+.away {
+   background: #fcb432;
+   }
+.busy {
+   background: #939494;
+   }
+.wrap span {
+   position: absolute;
+   left: 0;
+   margin: -2px 0 0 -2px;
+   width: 10px;
+   height: 10px;
+   border-radius: 50%;
+   }
+.wrap img {
+   width: 40px;
+   border-radius: 50%;
+   float: left;
+   margin-right: 10px;
+   }
+.wrap .meta {
+   padding: 5px 0 0 0;
+}
+
+.wrap .meta .preview {
+   margin: 5px 0 0 0;
+   padding: 0 0 1px;
+   font-weight: 400;
+   white-space: nowrap;
+   overflow: hidden;
+   text-overflow: ellipsis;
+   -moz-transition: 1s all ease;
+   -o-transition: 1s all ease;
+   -webkit-transition: 1s all ease;
+   transition: 1s all ease;
+}
+
+.wrap input{
+    width:70%;
+}
+
+ol, ul {
+   list-style: none;
+   }
+
+.onlineContent{
+height: 300px;
+overflow: auto;
+padding-left: 0px !important;
+// max-width: 222px !important;
+width:222px;
+
+}
+
+.chatBoxContent{
+height: 316px;
+overflow: auto;
+padding-left: 0px !important;
+width: 270px !important;
+}
+
+.membersList{
+margin-left: -45px;
+}
+.onlineMember{
+cursor: pointer;
+}
+.popOverWindow{
+position: relative;
+}
+
+.chatOverlay{
+background-color: #ffffff;
+border: 2px solid #b7b7b7;
+}
+
+.msgText{
+overflow-wrap: break-word;
+margin: 5px;
+}
+
+.onlineName{
+font-size: 13px;
+font-weight: 600;
+margin-bottom: 0px  ;
+}
+
+.onlineName p{
+margin-bottom: 0px  ;
+}
+.activeStatus{
+font-size: 10px;
+}
+
+.sent{
+   background-color: #fcb432;
+   margin-left: 40px;
+   font-weight: 600;
+    margin-top: 8px;
+   color: #ffffff;
+   border-radius: 10px 10px 0px 10px;
+}
+.reply{
+   color: #1d1313;
+   background-color: #fcb43252;
+   margin-top: 8px;
+   margin-right: 40px;
+   border-radius: 10px 10px 10px 0px;
+}
+
+
+.messages_list{
+   padding: 5px;
+   margin-left: 0px;
+   margin-bottom: 37px;
+   height: 315px;
+   overflow: auto;
+}
+
+.message {
+   position: relative;
+   padding: 1px;
+   font-size: 12px;
+   cursor: pointer;
+   }
+
+.message-input {
+   position: absolute;
+   bottom: 13px;
+   width: 100%;
+   z-index: 99;
+   }
+
+.chatBoxClose{
+   height: 25px;
+   width: 25px;
+   top: 0px;
+   right: -17px;
+   position: absolute;
+   cursor: pointer;
+}
+
+.onlineBoxClose{
+ height: 25px;
+   width: 25px;
+   top: 6px;
+   right: 4px;
+   position: absolute;
+   cursor: pointer;
+}
+
+.onlineIcon{
+   color: rgb(255, 255, 255) !important;
+   height: 35px !important;
+   width: 35px !important;
+   top: 10px !important;
+   left: 6px !important;
+   position: relative !important;
+}
